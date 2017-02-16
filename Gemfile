@@ -43,8 +43,8 @@ gem 'slim-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
-  gem 'ffaker'
 end
+gem 'ffaker'
 
 gem 'annotate'
 gem 'bootstrap-generators', '~> 3.3.4'
