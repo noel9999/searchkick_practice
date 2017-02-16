@@ -20,5 +20,6 @@ module SearchkickPractice
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.time_zone = 'Taipei'
+    config.active_record.raise_in_transactional_callbacks = true
   end
 end
