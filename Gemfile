@@ -43,9 +43,11 @@ gem 'slim-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem 'ffaker'
 end
 
 gem 'annotate'
 gem 'bootstrap-generators', '~> 3.3.4'
 gem 'bootstrap-kaminari-views'
 gem 'kaminari'
+gem 'searchkick'
